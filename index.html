@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPix Pro - Turn Your Pet Into Art</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF6B6B',
+                        secondary: '#4ECDC4',
+                        accent: '#FFE66D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-pink-50 to-white py-20 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+                Turn Your Pet Into<span class="text-primary"> Art</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Transform your pet photos into stunning AI-generated artwork.<br>
+                10 unique styles. 30 seconds. Starting at $4.99.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <a href="#pricing" class="bg-primary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-500 transition-colors">
+                    Upload Your Pet Photo
+                </a>
+                <a href="#pricing" class="bg-white text-gray-900 border-2 border-gray-300 px-8 py-4 rounded-full text-lg font-semibold hover:border-gray-400 transition-colors">
+                    View Pricing
+                </a>
+            </div>
+            <div class="flex items-center justify-center gap-8 text-gray-500">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>1,000+ Happy Pet Parents</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>30 Second Delivery</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>10 Unique Styles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 px-4 bg-white" id="how-it-works">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">How It Works</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">Three simple steps to transform your pet into a masterpiece</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 rounded-2xl bg-gray-50 hover:shadow-lg transition-shadow">
+                    <div class="text-6xl mb-6">📸</div>
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Upload Photo</h3>
+                    <p class="text-gray-600">Upload your pet's favorite photo. High-quality images work best!</p>
+                </div>
+                <div class="text-center p-8 rounded-2xl bg-gray-50 hover:shadow-lg transition-shadow">
+                    <div class="text-6xl mb-6">🎨</div>
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Pick a Style</h3>
+                    <p class="text-gray-600">Choose from 10 unique styles: superhero, Renaissance, astronaut, and more.</p>
+                </div>
+                <div class="text-center p-8 rounded-2xl bg-gray-50 hover:shadow-lg transition-shadow">
+                    <div class="text-6xl mb-6">🖼️</div>
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Download Art</h3>
+                    <p class="text-gray-600">Get your high-resolution artwork in 30 seconds. Print, share, or frame!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Styles Gallery -->
+    <section class="py-20 px-4 bg-gradient-to-b from-white to-pink-50" id="styles">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">10 Unique Styles</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">Choose the perfect look for your pet. From superheroes to cozy vibes.</p>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20250207-larry-superhero-v2.png" alt="Superhero" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Superhero</h3>
+                        <p class="text-xs text-gray-500">Cape, heroic pose, city skyline</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20250207-larry-beach-v2.png" alt="Beach" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Beach</h3>
+                        <p class="text-xs text-gray-500">Surfing, sunglasses, tropical</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20260207-larry-cozy-rainy-v2.png" alt="Cozy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Cozy</h3>
+                        <p class="text-xs text-gray-500">Warm blankets, fairy lights</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20250207-larry-camping-v2.png" alt="Camping" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Camping</h3>
+                        <p class="text-xs text-gray-500">Campfire, wilderness, adventure</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20260207-larry-king-v2.png" alt="Royal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Royal</h3>
+                        <p class="text-xs text-gray-500">King, crown, throne, palace</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/astronaut.png" alt="Astronaut" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Astronaut</h3>
+                        <p class="text-xs text-gray-500">Space suit, stars, planets</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20250207-larry-detective-v2.png" alt="Detective" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Detective</h3>
+                        <p class="text-xs text-gray-500">Noir style, mystery</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20250207-larry-graduation-v2.png" alt="Graduation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Graduation</h3>
+                        <p class="text-xs text-gray-500">Cap and gown, celebration</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20260207-larry-spa-day-v2.png" alt="Spa Day" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Spa Day</h3>
+                        <p class="text-xs text-gray-500">Relaxation, pampering</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden group">
+                    <div class="aspect-square bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center relative overflow-hidden">
+                        <img src="public/styles/20260207-larry-shake-off-v2.png" alt="Shake Off" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-900 mb-1">Shake Off</h3>
+                        <p class="text-xs text-gray-500">Action shot, dynamic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-20 px-4 bg-white" id="pricing">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Simple Pricing</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">Choose the plan that works for you. No subscriptions, no hidden fees.</p>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Free -->
+                <div class="relative p-8 rounded-2xl bg-gray-50 text-gray-900">
+                    <h3 class="text-2xl font-bold mb-2">Free Preview</h3>
+                    <div class="text-5xl font-bold mb-2">$0</div>
+                    <p class="mb-6 text-gray-600">Try before you buy</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>1 watermarked preview</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>720p resolution</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>1 style only</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>30-second delivery</span></li>
+                    </ul>
+                    <button class="block w-full text-center py-4 rounded-full font-bold transition-colors bg-primary text-white hover:bg-red-500">Try Free</button>
+                </div>
+                <!-- Starter -->
+                <div class="relative p-8 rounded-2xl bg-primary text-white shadow-xl scale-105">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-accent text-gray-900 px-4 py-1 rounded-full text-sm font-bold">Most Popular</div>
+                    <h3 class="text-2xl font-bold mb-2">Starter Pack</h3>
+                    <div class="text-5xl font-bold mb-2">$4.99</div>
+                    <p class="mb-6 text-white/80">Perfect for trying it out</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>10 high-res images</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>All 10 styles</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>1080p, no watermark</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>30-second delivery</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>Download instantly</span></li>
+                    </ul>
+                    <button class="block w-full text-center py-4 rounded-full font-bold transition-colors bg-white text-primary hover:bg-gray-100">Get Started</button>
+                </div>
+                <!-- Popular -->
+                <div class="relative p-8 rounded-2xl bg-gray-50 text-gray-900">
+                    <h3 class="text-2xl font-bold mb-2">Popular Pack</h3>
+                    <div class="text-5xl font-bold mb-2">$9.99</div>
+                    <p class="mb-6 text-gray-600">Best value for pet lovers</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>25 high-res images</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>All 10 styles</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>New styles (free updates)</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>4K resolution</span></li>
+                        <li class="flex items-center gap-2"><svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>Commercial license</span></li>
+                    </ul>
+                    <button class="block w-full text-center py-4 rounded-full font-bold transition-colors bg-primary text-white hover:bg-red-500">Go Pro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 px-4 bg-white" id="faq">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">How long does it take?</h3>
+                    <p class="text-gray-600">Most images are generated in 30 seconds or less. You'll receive an email when your artwork is ready.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">What photos work best?</h3>
+                    <p class="text-gray-600">High-quality photos with good lighting work best. Your pet should be clearly visible and facing the camera.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Can I use the images commercially?</h3>
+                    <p class="text-gray-600">The Pro Pack includes commercial license. Starter Pack is for personal use only.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">What if I don't like the results?</h3>
+                    <p class="text-gray-600">We offer a 100% satisfaction guarantee. If you're not happy with your images, contact us for a full refund.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="font-bold text-xl mb-4">PetPix Pro</h3>
+                    <p class="text-gray-400">Transform your pet photos into stunning AI-generated artwork.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Product</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#styles" class="hover:text-white">Styles</a></li>
+                        <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+                        <li><a href="#faq" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="https://tiktok.com/@petlarry" class="hover:text-white">TikTok @petlarry</a></li>
+                        <li><a href="https://instagram.com/larrydavidsworld" class="hover:text-white">Instagram</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="mailto:hello@petpixpro.com" class="hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>© 2026 PetPix Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
