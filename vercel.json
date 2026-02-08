@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "name": "petpix-pro-api",
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/generate",
+      "dest": "/api/generate.js"
+    },
+    {
+      "src": "/api/checkout",
+      "dest": "/api/checkout.js"
+    },
+    {
+      "src": "/api/send-email",
+      "dest": "/api/send-email.js"
+    }
+  ],
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe-secret-key",
+    "STRIPE_PUBLISHABLE_KEY": "@stripe-publishable-key",
+    "GEMINI_API_KEY": "@gemini-api-key",
+    "GMAIL_PASSWORD": "@gmail-password",
+    "SITE_URL": "https://agentneoangel-commits.github.io/petpix-pro"
+  }
+}

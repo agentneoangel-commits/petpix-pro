@@ -1,0 +1,18 @@
+// Success page after Stripe checkout
+const urlParams = new URLSearchParams(window.location.search);
+const sessionId = urlParams.get('session_id');
+
+if (sessionId) {
+  document.body.innerHTML = `
+    <div style="max-width: 600px; margin: 100px auto; text-align: center; font-family: sans-serif;">
+      <div style="font-size: 64px; margin-bottom: 20px;">🎉</div>
+      <h1 style="color: #FF6B6B; margin-bottom: 20px;">Payment Successful!</h1>
+      <p style="font-size: 18px; color: #666; margin-bottom: 30px;">
+        Thank you for your purchase! Check your email for your image generation credits.
+      </p>
+      <a href="/" style="display: inline-block; background: #FF6B6B; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold;">
+        Back to Home
+      </a>
+    </div>
+  `;
+}
